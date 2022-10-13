@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+    background-size: cover;
+    
+}
+.Btext {
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    position: relative;
+    top: -30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Btext small {
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+}
+.Im {
+    width: 85%;
+    position: relative;
+    top: 70px;
+    left: 120px;
+    animation: bubble 7s linear infinite;
+    bottom: -30px;
+}
+.typewriter h1 {
+    position: relative;
+    top: 60px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    54% { border-color: white; }
+  }
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -80px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY();
+        opacity: 0;
+        rotate: 0;
+    }
+
+    20%{
+
+        opacity: 1;
+
+    }
+    40%{
+
+        opacity: 1;
+
+    }
+    70%{
+
+        opacity: 1;
+
+    }
+    100%{
+        transform: translateY(-3vh);
+        opacity: 0;
+    }
+    
+}
+h2{
+    color: white;
+    position: relative;
+    font-size: 64px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    bottom: -400px;
+}
+p {
+    color: white;
+    position: relative;
+    font-size: 20px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    bottom: -50px;
+}
+.Img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: -350px;
+    align-items: left;
+}
+button {
+        display: inline-block;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 150px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;  
+        text-decoration: none;
+}
+h4 {
+    color: white;
+    position: relative;
+    font-size: 64px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    bottom: -580px;
+    right: 200px;
+}
+.C {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: -650px;
+    align-items: center;
+    left: 1000px;
+}
+.T1 {
+    color: white;
+    position: relative;
+    font-size: 30px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    bottom: -300px;  
+}
+a {
+    text-decoration: none;
+    color: white;
+}
